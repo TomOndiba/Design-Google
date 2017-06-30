@@ -1,0 +1,216 @@
+* {
+  font-family: 'Roboto', sans-serif; }
+
+.uppercase {
+  text-transform: uppercase;
+  color: #4285f4; }
+
+.col-1 {
+  width: 8.33333%;
+  float: left; }
+
+.col-2 {
+  width: 16.66667%;
+  float: left; }
+
+.col-3 {
+  width: 25%;
+  float: left; }
+
+.col-4 {
+  width: 33.33333%;
+  float: left; }
+
+.col-5 {
+  width: 41.66667%;
+  float: left; }
+
+.col-6 {
+  width: 50%;
+  float: left; }
+
+.col-7 {
+  width: 58.33333%;
+  float: left; }
+
+.col-8 {
+  width: 66.66667%;
+  float: left; }
+
+.col-9 {
+  width: 75%;
+  float: left; }
+
+.col-10 {
+  width: 83.33333%;
+  float: left; }
+
+.col-11 {
+  width: 91.66667%;
+  float: left; }
+
+.col-12 {
+  width: 100%;
+  float: left; }
+
+h1 {
+  color: #424242; }
+
+h2 {
+  color: #424242; }
+
+h3 {
+  color: #424242; }
+
+h4 {
+  color: #424242; }
+
+h5 {
+  color: #424242; }
+
+h6 {
+  color: #424242; }
+
+section hr {
+  border: 2px solid #4285f4; }
+
+hr {
+  border-color: rgba(96, 100, 105, 0.1); }
+
+a, header a {
+  text-decoration: none;
+  color: #414549; }
+
+p {
+  color: #414549; }
+
+.container {
+  padding-left: 70px;
+  padding-right: 70px; }
+
+.row, header {
+  overflow: auto;
+  padding-top: 50px; }
+
+.right {
+  text-align: right; }
+
+.img-responsive {
+  width: 100%; }
+
+.card-link, #newsfeed .card, #brand-recognition .first, footer .last {
+  display: flex;
+  align-items: center; }
+  .card-link p, #newsfeed .card p, #brand-recognition .first p, footer .last p {
+    margin: 0; }
+
+.elipse {
+  border-radius: 50%; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+header {
+  text-align: center;
+  padding-bottom: 70px; }
+  header .icon {
+    float: right; }
+  header img {
+    margin-bottom: 20px; }
+  header a {
+    color: #414549;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 20px; }
+
+#hero {
+  padding-bottom: 70px; }
+  #hero img {
+    width: 100%; }
+  #hero h1 {
+    font-size: 2.5em; }
+
+#newsfeed {
+  padding-bottom: 70px; }
+  #newsfeed p {
+    margin: 0; }
+  #newsfeed .col-6 {
+    margin-right: 5%;
+    width: 47.5%; }
+    #newsfeed .col-6:last-child {
+      margin-right: 0%; }
+  #newsfeed .card {
+    background-color: #f1f3f4;
+    height: 100px;
+    margin-top: 45px;
+    padding: 0 30px 0 20px; }
+  #newsfeed .title {
+    color: #424242; }
+  #newsfeed .blue {
+    color: #4285f4; }
+
+#grid-1, #grid-2, #grid-3 {
+  padding-bottom: 50px; }
+  #grid-1 .col-6, #grid-2 .col-6, #grid-3 .col-6 {
+    margin-right: 5%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 47.5%; }
+    #grid-1 .col-6:last-child, #grid-2 .col-6:last-child, #grid-3 .col-6:last-child {
+      margin-right: 0%; }
+  #grid-1 .item, #grid-2 .item, #grid-3 .item {
+    height: 615px; }
+  #grid-1 .col-1, #grid-2 .col-1, #grid-3 .col-1 {
+    padding-right: 15px; }
+
+#brand-recognition {
+  padding-bottom: 70px; }
+  #brand-recognition .first {
+    justify-content: space-between; }
+  #brand-recognition .col-4 {
+    margin: 30px auto;
+    margin-right: 5%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 30%; }
+    #brand-recognition .col-4:last-child {
+      margin-right: 0%; }
+
+#the-latest {
+  padding-bottom: 70px; }
+  #the-latest .col-4 {
+    margin: 30px auto;
+    height: 430px;
+    margin-right: 5%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 30%; }
+    #the-latest .col-4:last-child {
+      margin-right: 0%; }
+    #the-latest .col-4 .img-responsive {
+      height: 243px; }
+    #the-latest .col-4 .icon {
+      margin-top: 15px;
+      width: 34px; }
+    #the-latest .col-4 #icon-fb {
+      margin-top: 15px;
+      width: 24px; }
+
+footer .col-6 {
+  margin-right: 10%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+footer .first {
+  padding-bottom: 50px; }
+footer .last {
+  justify-content: space-between;
+  margin-bottom: 50px; }
+  footer .last img {
+    width: 32px; }
+
+/*# sourceMappingURL=main.css.map */
