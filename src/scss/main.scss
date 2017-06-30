@@ -16,6 +16,10 @@ $social-icon : 34px;
   @return $width - $value;
 }
 
+@function hoverSizing($fontSize) {
+  @return $fontSize + 1;
+}
+
 section {
   hr {
     border: 2px solid $primary-color;
@@ -29,6 +33,10 @@ hr {
 a {
   text-decoration: none;
   color: $text-color;
+  &:hover {
+    font-size: hoverSizing(16px);
+    color: $primary-color;
+   }
 }
 
 p {
