@@ -1,7 +1,8 @@
 @import 'colors';
 @import 'fonts';
 @import 'sizes';
-$grid-spacing : 5%;
+@import 'media';
+$grid-spacing: 5%;
 $spacing-50 : 50px;
 $spacing-70 : 70px;
 $social-icon : 34px;
@@ -44,8 +45,8 @@ p {
 }
 
 .container {
-  padding-left: 70px;
-  padding-right: 70px;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .row {
@@ -89,6 +90,9 @@ header {
 
   img {
     margin-bottom: 20px;
+    &.logo {
+      width: 25%;
+    }
   }
 
   a {
@@ -117,7 +121,7 @@ header {
     margin: 0;
   }
 
-  .col-6 {
+  .col-l-6 {
     margin-right: $grid-spacing;
     width: gutter(50%, ($grid-spacing / 2));
 
@@ -146,7 +150,7 @@ header {
 //grid-1
 #grid-1 {
   padding-bottom: $spacing-50;
-  .col-6 {
+  .col-l-6 {
     margin-right:$grid-spacing;
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
@@ -162,7 +166,7 @@ header {
     height: 615px;
   }
 
-  .col-1 {
+  .col-l-1 {
     padding-right: 15px;
   }
 }
@@ -174,7 +178,7 @@ header {
     justify-content: space-between;
   }
 
-  .col-4 {
+  .col-l-4 {
     margin: 30px auto;
     margin-right:$grid-spacing;
     -webkit-box-sizing:border-box;
@@ -194,7 +198,7 @@ header {
 
 #the-latest {
   padding-bottom: $spacing-70;
-  .col-4 {
+  .col-l-4 {
     margin: 30px auto;
     height: 430px;
     margin-right:$grid-spacing;
@@ -229,7 +233,13 @@ header {
 }
 
 footer {
-  .col-6 {
+  .container {
+    hr{
+      display: none;
+    }
+  }
+
+  .col-l-6 {
     margin-right: 10%;
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;

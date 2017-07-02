@@ -4,6 +4,13 @@
 
 $text-titles : h1, h2, h3, h4, h5, h6;
 
+@each $header in (h1, h2, h3, h4){
+  #{$header}{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+  }
+}
+
 .uppercase {
   text-transform: uppercase;
   color: $primary-color;
