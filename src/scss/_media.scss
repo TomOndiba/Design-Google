@@ -17,6 +17,11 @@
 		display: none;
 	}
 
+  .l-hidden {
+    display: inline-block !important;
+    margin-left: 5px;
+  }
+
 	.item {
 		height: auto !important;
 		padding-bottom: 50px;

@@ -54,6 +54,10 @@ p {
   padding-top: $spacing-50;
 }
 
+.l-hidden {
+  display: none;
+}
+
 .right {
   text-align: right;
 }
@@ -84,7 +88,11 @@ header {
   @extend .row;
   text-align: center;
   padding-bottom: $spacing-70;
-  .icon {
+  .icon-left {
+    float: left;
+  }
+
+  .icon-right {
     float: right;
   }
 
